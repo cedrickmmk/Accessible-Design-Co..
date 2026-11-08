@@ -76,7 +76,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-/* -------------------------hero section-------------------- */ */
+/* -------------------------hero section-------------------- */ 
 .hero{
     background-image: url(./images/hero\ image.jpg);
     color: white;
@@ -87,6 +87,7 @@ main{
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    background-repeat: no-repeat;
 }
 /* ------------------------------------------------------------- */
  /* ----------------about us section----------------------------- */
@@ -103,7 +104,7 @@ main{
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
-    margin: 0 auto;  */
+    argin: 0 auto;  */
 } 
 
 .service-grid{
@@ -121,7 +122,24 @@ main{
 /* ------------------------------------------------------------ */
 /* --------------------contact cection-------------------------- */
 
+.contact-us{
+    background-color: brown;
+    border: 10px solid bisque;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.contact-form{
+    background-color: orange;
+    display: flex;
+    border: 1px solid beige;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 
 
