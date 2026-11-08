@@ -4,6 +4,8 @@ body {
   
 }
 
+/* -----------------------header---------------------- */
+
 header{
     background-color: blueviolet;
     border: 10px solid bisque;
@@ -21,8 +23,6 @@ header{
     width: 100%;
     flex-wrap: wrap;
 }
-
-
 
 .form-section{
      background-color: rgb(133, 26, 97);
@@ -66,6 +66,37 @@ header{
     margin-right: auto;
     object-fit: cover;
 }
+
+/* -----------------------main----------------------- */
+main{
+     background-color: blueviolet;
+    border: 10px solid bisque;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    background-image: url(./images/hero\ image.jpg);
+    color: white;
+    display: flex;
+    border: 1px solid beige;
+    padding: 10px;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.about-us{
+    background-color: brown;
+    color: white;
+}
+
+.our-services{
+    
+}
+
 
 
 
