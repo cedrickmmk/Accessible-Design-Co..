@@ -13,6 +13,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+/* -------------form container (flex applied)------------------ */
 .form-container{
     background-color: orange;
     display: flex;
@@ -66,8 +67,8 @@ header{
     margin-right: auto;
     object-fit: cover;
 }
-
-/* -----------------------main----------------------- */
+/* ---------------------------------------------------------- */
+/* --------------------------main---------------------------- */
 main{
      background-color: blueviolet;
     border: 10px solid bisque;
@@ -75,7 +76,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-
+/* -------------------------hero section-------------------- */ */
 .hero{
     background-image: url(./images/hero\ image.jpg);
     color: white;
@@ -87,17 +88,38 @@ main{
     width: 100%;
     flex-wrap: wrap;
 }
-
+/* ------------------------------------------------------------- */
+ /* ----------------about us section----------------------------- */
 .about-us{
     background-color: brown;
     color: white;
 }
-
+/* --------------------------------------------------------------- */
+/* ---------------service section (grip appliad)------------- */
 .our-services{
-    
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 0 auto;  */
+} 
+
+.service-grid{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 0 auto; 
+
 }
 
-
+.service-card{
+    background-color: blueviolet;
+    
+}
+/* ------------------------------------------------------------ */
+/* --------------------contact cection-------------------------- */
 
 
 
