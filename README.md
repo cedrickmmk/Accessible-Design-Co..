@@ -20,5 +20,5 @@
 * **chrome Developer Tools (Inspector):** Invaluable for monitoring active CSS inheritances, discovering forgotten container layout boundaries, and finding broken margins or missing parent brackets that cause rendering drops.
 * **Keyboard Accessibility Auditing (Tab-Testing):** Intentionally stepping through layout elements solely with the `Tab` and `Shift + Tab` commands to visually verify the visibility, layout layers (`z-index`), and focus paths of indicators like skip buttons.
 * **Scrimba & MDN Web Docs:** Critical resources for understanding the structural relationship between semantic wrapper regions, focus anchors, and custom layout frameworks.
-* **https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet:** to ubndestand te structure of wrtiting a README
+* **https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet:** to ubndestand te structure of wrtiting a README.
   
