@@ -1,3 +1,4 @@
+/* -----------------------bady------------------------ */
 body {
     
     /* background-color: aliceblue; */
@@ -15,7 +16,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-/* -------------form container (flex applied)------------------ */
+/* ------form container (flex applied)--------------- */
 .form-container{
     /* background-color:; */
     display: flex;
@@ -70,8 +71,8 @@ header{
     margin-right: auto;
     object-fit: cover;
 }  
-/* ---------------------------------------------------------- */
-/* --------------------------main---------------------------- */
+/* ---------------------------------------------------- */
+/* -----------------------main------------------------- */
 main{
     background-color: rgb(204, 202, 201);
     /* border: 10px solid bisque; */
@@ -79,7 +80,7 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-/* -------------------------hero section-------------------- */ 
+/* -------------------hero section-------------------- */ 
 .hero{
     background-image: url(images/hero.back.jpg);
     color:white;
@@ -92,14 +93,14 @@ main{
     flex-wrap: wrap;
     background-repeat: repeat;
 }
-/* ------------------------------------------------------------- */
- /* ----------------about us section----------------------------- */
+/* ---------------------------------------------------- */
+ /* ----------------about us section------------------- */
 .about-us{
     /* background-color: brown; */
     color: black;
 }
-/* --------------------------------------------------------------- */
-/* ---------------service section (grip appliad)------------- */
+/* --------------------------------------------------- */
+/* ----------service section (grip appliad)------------- */
 .our-services{
     /* background-color: black; */
     color: black;
@@ -143,8 +144,8 @@ main{
     align-items: center;
     text-align: center;
 }
-/* ------------------------------------------------------------ */
-/* --------------------contact cection-------------------------- */
+/* --------------------------------------------------- */
+/* ----------------contact cection------------------- */
 
 .contact-us{
     /* background-color: brown; */
@@ -202,8 +203,8 @@ main{
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif
 }
-/* ------------------------------------------------------------------ */
-/* -----------------------------footer------------------------------------ */
+/* --------------------------------------------- */
+/* ----------------footer---------------------- */
 footer{
     background-color: black; 
     /* border: 10px solid; */
@@ -228,8 +229,8 @@ footer{
     margin-right: auto;
     object-fit: cover;
 }
-/* ----------------------------------------------------------------------- */
-/* -------------------------------media a query-------------------------------- */
+/* ---------------------------------------------- */
+/* -------------media a query-------------------- */
 @media screen and (max-width: 760px) {
     body{
         background-color: aqua;
@@ -265,7 +266,7 @@ footer{
     }
    
 } 
-/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------- */
 /* ------------------skip link---------------------- */
 .skip-link{
   position: absolute;
