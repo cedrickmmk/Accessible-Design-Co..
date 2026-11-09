@@ -1,33 +1,36 @@
 body {
-    background-color: rgb(115, 77, 10);
-    border: 2px solid black;
+    /* background-color: aliceblue; */
+    /* background-repeat: no-repeat; */
+    /* border: 2px solid */
   
 }
 
 /* -----------------------header---------------------- */
- header{
-    background-color: blueviolet;
-    border: 10px solid bisque;
+header{
+    background-color: rgb(37, 56, 50);
+    
+    /* border: 10px solid ; */
     padding: 15px 30px;
     justify-content: space-between;
     align-items: center;
 }
 /* -------------form container (flex applied)------------------ */
 .form-container{
-    background-color: orange;
+    /* background-color:; */
     display: flex;
-    border: 3px solid beige;
+    /* border: 3px solid; */
     padding: 10px;
     justify-content:space-between;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
+    color: white
 }
 
 .form-section{
-    background-color: rgb(133, 26, 97);
+    /* background-color: rgb(139, 57, 194); */
     display: flex;
-    border: 1px solid beige;
+    /* border: 1px solid beige; */
     padding: 10px;
     justify-content:center;
     align-items: center;
@@ -36,7 +39,7 @@ body {
 }  
 
 .navbar ul {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     gap: 15px;
     margin: 0;
@@ -46,10 +49,10 @@ body {
 
 .nav-link{
     text-decoration: none; 
-    background-color: brown; 
+    background-color: rgb(29, 112, 101); 
     color: white;
     font-weight: bold;
-    border: 2px brown;
+    border: 5px solid white ;
     padding: 10px 20px;
     display: inline-block;
 }
@@ -68,16 +71,16 @@ body {
 /* ---------------------------------------------------------- */
 /* --------------------------main---------------------------- */
 main{
-    background-color: blueviolet;
-    border: 10px solid bisque;
+    background-color: rgb(204, 202, 201);
+    /* border: 10px solid bisque; */
     padding: 15px 30px;
     justify-content: space-between;
     align-items: center;
 }
 /* -------------------------hero section-------------------- */ 
 .hero{
-    background-image: url(./images/hero\ image.jpg);
-    color: white;
+    background-image: url(images/hero.back.jpg);
+    color:white;
     display: flex;
     border: 1px solid beige;
     padding: 10px;
@@ -85,19 +88,19 @@ main{
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 /* ------------------------------------------------------------- */
  /* ----------------about us section----------------------------- */
 .about-us{
-    background-color: brown;
-    color: white;
+    /* background-color: brown; */
+    color: black;
 }
 /* --------------------------------------------------------------- */
 /* ---------------service section (grip appliad)------------- */
 .our-services{
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    color: black;
     padding: 60px 20px;
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -114,25 +117,26 @@ main{
 }
 
 .service-card{
-    background-color: blueviolet;
+    background-color:  rgb(158, 158, 157);
     
 }
 /* ------------------------------------------------------------ */
 /* --------------------contact cection-------------------------- */
 
 .contact-us{
-    background-color: brown;
-    border: 10px solid bisque;
+    /* background-color: brown; */
+    border: 0px solid ;
     padding: 15px;
     justify-content: space-between;
     align-items: center;
     width: 96%;
+    color:black;
 }
 
 .contact-form{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
-    border: 5px solid beige;
+    border: 0px solid ;
     padding: 20px;
     justify-content:space-between;
     align-items: start;
@@ -143,7 +147,7 @@ main{
 }
 
 .contact-input{
-    background-color: aquamarine;
+    background-color: w;
     display: block;
     width: 100%;
     gap: 5px;
@@ -178,15 +182,16 @@ main{
 /* ------------------------------------------------------------------ */
 /* -----------------------------footer------------------------------------ */
 footer{
-    background-color: blanchedalmond ;
-    border: 10px solid rgb(131, 17, 17);
-    padding: 15px 30px;
+    background-color: black; 
+    /* border: 10px solid; */
+    padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .social-media-links{
-    background-color: aquamarine;
+    /* background-color:black ; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
