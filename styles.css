@@ -26,8 +26,8 @@ header{
 }
 
 .form-section{
-     background-color: rgb(133, 26, 97);
-     display: flex;
+    background-color: rgb(133, 26, 97);
+    display: flex;
     border: 1px solid beige;
     padding: 10px;
     justify-content:center;
@@ -53,8 +53,7 @@ header{
     border: 2px brown;
     padding: 10px 20px;
     display: inline-block;
-
-} 
+}
 
 #disign-logo{
     margin-right: auto;
@@ -70,7 +69,7 @@ header{
 /* ---------------------------------------------------------- */
 /* --------------------------main---------------------------- */
 main{
-     background-color: blueviolet;
+    background-color: blueviolet;
     border: 10px solid bisque;
     padding: 15px 30px;
     justify-content: space-between;
@@ -108,7 +107,7 @@ main{
 } 
 
 .service-grid{
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     margin: 0 auto; 
@@ -125,21 +124,54 @@ main{
 .contact-us{
     background-color: brown;
     border: 10px solid bisque;
-    padding: 15px 30px;
+    padding: 15px;
     justify-content: space-between;
     align-items: center;
+    width: 96%;
 }
 
 .contact-form{
     background-color: orange;
     display: flex;
-    border: 1px solid beige;
-    padding: 10px;
+    border: 5px solid beige;
+    padding: 20px;
     justify-content:space-between;
-    align-items: center;
-    width: 100%;
+    align-items: start;
+    width: 30%;
+    gap: 15px;
+    flex-direction: column;
     flex-wrap: wrap;
 }
+
+.contact-input{
+    background-color: aquamarine;
+    display: block;
+    width: 100%;
+    gap: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid #333333;
+}
+
+.contact-textarea{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #333333;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.contact-submit{
+    border: 3px solid #333333;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    width:  120px;
+}
+
+
+    
 
 
 
