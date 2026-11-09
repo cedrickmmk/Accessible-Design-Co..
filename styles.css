@@ -5,8 +5,7 @@ body {
 }
 
 /* -----------------------header---------------------- */
-
-header{
+ header{
     background-color: blueviolet;
     border: 10px solid bisque;
     padding: 15px 30px;
@@ -17,7 +16,7 @@ header{
 .form-container{
     background-color: orange;
     display: flex;
-    border: 1px solid beige;
+    border: 3px solid beige;
     padding: 10px;
     justify-content:space-between;
     align-items: center;
@@ -41,7 +40,7 @@ header{
     display: flex;
     gap: 15px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     list-style: none;
 }      
 
@@ -65,7 +64,7 @@ header{
     height: 70px;
     margin-right: auto;
     object-fit: cover;
-}
+}  
 /* ---------------------------------------------------------- */
 /* --------------------------main---------------------------- */
 main{
@@ -192,6 +191,14 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.media-logo{
+    border: radius 10%;
+    width:  80px;
+    height: 80px;
+    margin-right: auto;
+    object-fit: cover;
 }
     
 
