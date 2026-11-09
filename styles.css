@@ -46,6 +46,7 @@ header{
     margin: 0;
     padding: 10px;
     list-style: none;
+    flex-wrap: wrap;
 }      
 
 .nav-link{
@@ -54,8 +55,8 @@ header{
     color: white;
     font-weight: bold;
     border: 5px solid white ;
-    padding: 10px 20px;
-    display: inline-block;
+    padding: 10px 10px;
+    /* display: flex; */
 }
 
 #disign-logo{
@@ -264,11 +265,21 @@ footer{
     }
    
 } 
-
-
-
-
-
-
-
-
+/* -------------------------------------------------------------------------------------- */
+/* ------------------skip link---------------------- */
+.skip-link{
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: -100px;
+  left: 20px;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 99999; 
+  transition: transform 0.3s ease; 
+}
+.skip-link:focus {
+  top: 10px;
+  position: fixed;
+}
