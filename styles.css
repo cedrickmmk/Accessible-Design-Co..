@@ -85,13 +85,22 @@ main{
     background-image: url(images/hero.back.jpg);
     color:white;
     display: flex;
-    border: 1px solid beige;
-    padding: 10px;
-    justify-content:space-between;
+    flex-direction: column;
+    /* border: 1px solid beige; */
+    padding: 200px 20px;
     align-items: center;
-    width: 100%;
+    justify-content:start;
+    align-items: start;
+    /* width: 100%; */
     flex-wrap: wrap;
     background-repeat: repeat;
+}
+.start-button{
+    background: rgb(3, 100, 40);
+    color: white;
+    border: 5px solid white;
+    padding: 20px 15px;
+    border-radius: 30%;
 }
 /* ---------------------------------------------------- */
  /* ----------------about us section------------------- */
