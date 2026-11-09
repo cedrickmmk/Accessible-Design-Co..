@@ -151,26 +151,48 @@ main{
     border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
-    border: 3px solid #333333;
+    border: 3px solid black;
 }
 
 .contact-textarea{
     width: 100%;
     padding: 10px;
-    border: 3px solid #333333;
+    border: 3px solid black;
     border-radius: 20px;
     box-sizing: border-box;
+    min-height: 120px;
 }
 
-.contact-submit{
-    border: 3px solid #333333;
+.submit-button{
+    border: 3px solid black;
     padding: 10px;
     border-radius: 20px;
     margin: 10px;
     width:  120px;
 }
 
+#contact-label{
+    color: black;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+/* ------------------------------------------------------------------ */
+/* -----------------------------footer------------------------------------ */
+footer{
+    background-color: blanchedalmond ;
+    border: 10px solid rgb(131, 17, 17);
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.social-media-links{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
     
 
 
