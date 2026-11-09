@@ -1,4 +1,5 @@
 body {
+    
     /* background-color: aliceblue; */
     /* background-repeat: no-repeat; */
     /* border: 2px solid */
@@ -106,14 +107,15 @@ main{
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     argin: 0 auto;  */
-} 
+}
 
 .service-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     gap: 30px;
-    margin: 0 auto; 
+    margin-left: 0;
     max-width: 1200px;
+    justify-content: start;
 
 }
 
@@ -225,7 +227,43 @@ footer{
     margin-right: auto;
     object-fit: cover;
 }
-    
+/* ----------------------------------------------------------------------- */
+/* -------------------------------media a query-------------------------------- */
+@media screen and (max-width: 760px) {
+    body{
+        background-color: aqua;
+        color: white;
+    }
+    main{
+        background-color: rgb(3, 30, 54);
+        color: white;
+    }
+    .nav-link{
+    background-color: rgba(10, 10, 59, 0.555); 
+    color: white;
+    }
+    .about-us{
+        color: white;
+    }
+    .our-services{
+        color: white;
+    }
+    .contact-us{
+        color: white;
+    }
+    .service-card{
+        background-color: brown;
+        color:rgb(235, 226, 215);
+    }
+    #contact-label{
+        color: white;
+    }
+    footer{
+        background-color: aqua;
+        color: black;
+    }
+   
+} 
 
 
 
